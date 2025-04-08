@@ -14,10 +14,10 @@
 
 - Clone or download the repository: git clone git@github.com:Mohamed3Eid/Bondi.git
 
-## 📬 Contact
-
-- Made with by Mohamed Eid 📧 Email: mohamed.3eid@outlook.com
-
 ## Live Demo
 
 👉 [Click here to view the project](https://mohamed3eid.github.io/Bondi/pages/index.html)
+
+## 📬 Contact
+
+- Made with by Mohamed Eid 📧 Email: mohamed.3eid@outlook.com
