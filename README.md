@@ -20,4 +20,4 @@
 
 ## Live Demo
 
-👉 [Click here to view the project](https://github.com/Mohamed3Eid/Bondi/settings/pages)
+👉 [Click here to view the project](https://mohamed3eid.github.io/Bondi/pages/index.html)
