@@ -1,0 +1,238 @@
+/* Start Global Rules */
+:root {
+  --primary-color: #33d1cc;
+  --secondary-color: #ffc400;
+  --section-background-1: #19283f;
+  --section-background-2: #eff7fa;
+  --main-transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-btn {
+  background-color: var(--primary-color);
+  color: black;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  transition: var(--main-transition);
+}
+
+.main-btn:hover {
+  background-color: #055160;
+  color: white;
+}
+
+.main-title::before {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: var(--primary-color);
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* End Global Rules */
+/* Start Header */
+#header {
+  background-color: var(--section-background-1);
+}
+
+#header .navbar {
+  background-color: var(--section-background-1);
+}
+
+#header .navbar-toggler {
+  background-color: var(--primary-color);
+}
+
+#header .nav-link {
+  font-weight: bold;
+  color: white;
+}
+
+#header .nav-item:hover .nav-link,
+#header .nav-link.active {
+  color: var(--primary-color);
+}
+
+#header .navbar svg {
+  padding-left: 10px;
+  color: var(--primary-color);
+  border-left: 1px solid var(--primary-color);
+}
+/* End Header */
+/* Start Landing */
+#landing {
+  background-color: var(--section-background-1);
+  min-height: calc(100vb - 72px);
+}
+/* End Landing */
+/* Start Features */
+#features .holder-icon {
+  height: 200px;
+}
+
+#features .holder-icon svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#features .feat .number {
+  font-size: 13rem;
+  color: var(--section-background-2);
+}
+
+#features .feat .icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+#features .feat h3 {
+  color: var(--secondary-color);
+}
+/* End Features */
+/* Start Our-Work */
+#our-work {
+  background-color: var(--section-background-2);
+}
+
+#our-work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+
+#our-work ul li:hover,
+#our-work ul .active {
+  background-color: var(--primary-color);
+}
+
+#our-work .group-images .box {
+  padding: 5px;
+  overflow: hidden;
+}
+
+#our-work .group-images .box::before {
+  position: absolute;
+  content: attr(data-work);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  background-color: hsla(178, 63%, 51%, 0.74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  transform: translateX(calc(-100% - 5px));
+  transition: var(--main-transition);
+}
+
+#our-work .group-images .box:hover::before {
+  transform: translateX(0);
+}
+/* End Our-Work */
+/* Start Stuff */
+#stuff .text {
+  max-width: 600px;
+}
+/* End Stuff */
+/* Start Team */
+#team {
+  background-color: var(--section-background-2);
+}
+
+#team h2 {
+  color: var(--secondary-color);
+}
+
+#team .box h5 {
+  background-color: var(--primary-color);
+  color: white;
+}
+/* End Team */
+/* Start Techs */
+#project {
+  background-color: var(--section-background-1);
+}
+/* End Techs */
+
+/* Start Blog */
+/* no-css */
+/* End Blog */
+
+/* Start Subscribe*/
+#subscribe {
+  background-color: var(--secondary-color);
+}
+
+#subscribe input::placeholder {
+  text-transform: capitalize;
+  color: black;
+  outline: none;
+}
+
+#subscribe input:focus {
+  outline: none;
+}
+
+#subscribe input:focus::placeholder {
+  opacity: 0;
+  transition: var(--main-transition);
+}
+/* End Subscribe */
+/* Start Footer */
+#footer {
+  background-color: var(--section-background-1);
+}
+
+#footer .by span {
+  color: var(--primary-color);
+}
+
+#footer .copy span {
+  color: var(--secondary-color);
+}
+
+#footer .social svg {
+  width: 20px;
+  height: 20px;
+}
+
+#footer .social .facebook {
+  background-color: #1877f2;
+}
+
+#footer .social .facebook:hover {
+  background-color: #6366f1;
+}
+
+#footer .social .twitter {
+  background-color: #1da1f2;
+}
+
+#footer .social .twitter:hover {
+  background-color: #38bdf8;
+}
+
+#footer .social .linkedin {
+  background-color: #0077b5;
+}
+
+#footer .social .linkedin:hover {
+  background-color: #2dd4bf;
+}
+
+#footer .social .youtube {
+  background-color: #ff0000;
+}
+
+#footer .social .youtube:hover {
+  background-color: #fb7185;
+}
+/* End Footer */
