@@ -10,9 +10,13 @@
 - Clean, minimalistic design
 - Simple to customize and extend
 
-## 🚀 How to Use
+## 📂 How to Use
 
-- Clone or download the repository: git clone git@github.com:Mohamed3Eid/Bondi.git
+- Clone the repository:
+
+```bash
+git clone git@github.com:Mohamed3Eid/Bondi.git
+```
 
 ## Live Demo
 
