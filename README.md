@@ -12,8 +12,8 @@
 
 ## 🚀 How to Use
 
-Clone or download the repository: git clone git@github.com:Mohamed3Eid/Bondi.git
+- Clone or download the repository: git clone git@github.com:Mohamed3Eid/Bondi.git
 
 ## 📬 Contact
 
-Made with by Mohamed Eid 📧 Email: mohamed.3eid@outlook.com
+- Made with by Mohamed Eid 📧 Email: mohamed.3eid@outlook.com
